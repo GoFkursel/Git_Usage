@@ -1,5 +1,5 @@
 # **好习惯：上班前git pull，下班后git push**  
-## 新建一个仓库（Repo）并链接本地
+## 首次新建一个仓库（Repo）并链接本地
 1. 进入工作文件夹（working directory）  
    > git init #初始化一个本地仓库  
 2. 首次与远程GitHub仓库连接（remote）  
@@ -36,4 +36,3 @@ error: failed to push some refs to 'git@github.com:raxx/xxar.git'**
 ***  
 **解决**：版本不一致，提交冲突，远端代码与本地代码不一致（别人在你提交之前提交了代码，导致你本地现在的代码与远端现在的代码不一致。）（但是，我是刚新建的，所以就是因为远端有一个README.md，我猜的）；  
 **因此，需要先git pull origin main一下**，所以咱们就是说！标题！！！！很重要！
-
